@@ -13,7 +13,7 @@ order by 1 desc
 # concat 함수를 통하여 여러 개 문자열을 하나의 문자열로 합칠 수가 있으며,
 # substr 함수를 통하여 문자열을 슬라이싱 할 수 있다.
 
-# ugu 테이블과 USED_GOODS_BOARD(ugb) 테이블(B)을 join 한다.
+# ugu 테이블과 USED_GOODS_BOARD(ugb) 테이블을 join 한다.
 # 조인 조건으로 ugu 테이블의 USER_ID와 ugb 테이블의 WRITER_ID가 같은 경우에 조인하도록 한다. (on)
 # USER_ID를 기준으로 group by 구문으로 그룹화한다. (USER_ID 대신 1로 대체)
 # having 구문을 이용하여 COUNT(1)를 통하여 구한 ugb 테이블의 WRITER_ID 개수가 3개 이상인 경우에만 그룹화하도록 한다.
