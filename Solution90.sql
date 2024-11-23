@@ -6,7 +6,7 @@ group by 1
 
 """
 
-LeetCode의 1934번 Confirmation Rate 문제는 SQL을 사용하는 문제로, 데이터를 처리하여 특정 통계 결과를 구하는 과제이다. 이 문제를 해결하기 위한 힌트를 드리자면 다음과 같다:
+LeetCode의 1934번 Confirmation Rate 문제는 SQL을 사용하는 문제로, 데이터를 처리하여 특정 통계 결과를 구하는 과제이다.
 
 1. 문제 이해:
    이 문제는 특정 기준에 따라 성공률을 계산하는 문제다. 성공률은 일반적으로 어떤 이벤트가 얼마나 자주 성공했는지 비율로 표현된다.
@@ -28,6 +28,6 @@ LeetCode의 1934번 Confirmation Rate 문제는 SQL을 사용하는 문제로, �
 5. SQL의 집계 함수 사용:
    - `COUNT(*)`를 사용하여 전체 등록된 사용자 수를 계산한다.
    - `COUNT(confirmed_at)` 또는 조건부 `SUM`을 사용하여 확인된 사용자 수를 계산할 수 있다.
-   - 그런 다음 확인율(Confirmation Rate)을 계산다.
+   - 그런 다음 확인율(Confirmation Rate)을 계산한다.
 
 """
